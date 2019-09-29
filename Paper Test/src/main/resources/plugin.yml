@@ -1,0 +1,16 @@
+name: Test
+version: ${project.version}
+main: me.masterbea.test.Test
+api-version: 1.13
+authors: [masterbea]
+description: test
+
+commands:
+  hi:
+    usage: /<command>
+    description: Tutorial Command
+  wand:
+    usage: /<command>
+    description: gives player a wand
+
+permissions:
